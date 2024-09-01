@@ -1,88 +1,75 @@
-# ScriptSprinters
-Here's a sample GitHub README file for your cryptocurrency website project:
-
----
-
 # KryptoConnect
 
-A sleek and modern cryptocurrency website built using HTML and CSS. This project serves as a frontend template for displaying cryptocurrency data, including prices, market trends, and news.
+## Introduction
+A brief introduction of your project goes here. You may want to cover the purpose of your project, its core functionality, and what problems it solves.
+
+## Project Type
+Frontend | Backend | Fullstack
+
+## Deplolyed App
+Frontend: https://deployed-site.whatever
+Backend: https://deployed-site.whatever
+Database: https://deployed-site.whatever
+
+## Directory Structure
+ScriptSprinters/
+├─ src/
+├─ assets/
+├─ styles/
+├─ index.html
+├─ readme.me
+│  ├─ ...
+
+## Video Walkthrough of the project
+Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
+
+## Video Walkthrough of the codebase
+Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
 
 ## Features
+List out the key features of your application.
 
-- **Responsive Design**: Fully responsive design that adapts to different screen sizes.
-- **Modern UI**: Clean and modern user interface with a focus on usability.
-- **Customizable Layout**: Easily modify the layout and design to suit your needs.
-- **CSS Animations**: Subtle animations for an engaging user experience.
-- **Cross-Browser Compatibility**: Works seamlessly across different browsers.
+- Feature 1
+- Feature 2
+- Feature 3
 
-## Live Demo
+## design decisions or assumptions
+List your design desissions & assumptions
 
-Check out the live demo of the website [here](#).
+## Installation & Getting started
+Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
 
-## Screenshots
-
-![Homepage](path/to/screenshot1.png)
-*Description of the homepage.*
-
-![Market Overview](path/to/screenshot2.png)
-*Description of the market overview section.*
-
-## Getting Started
-
-### Prerequisites
-
-To run this project locally, you will need:
-
-- A web browser (e.g., Chrome, Firefox)
-- A code editor (e.g., VSCode, Sublime Text)
-
-### Installation
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/Anjaliicode/ScriptSprinters.git
-   ```
-
-2. **Navigate to the project directory:**
-
-   ```bash
-   cd ScriptSprinters
-   ```
-
-3. **Open the project in your web browser or VS Code:**
-
-   ```bash
-   open index.html
-   ```
+```bash
+npm install my-project
+cd my-project
+npm start
+```
 
 ## Usage
+Provide instructions and examples on how to use your project.
 
-- Browse through different sections like market trends, news, and cryptocurrency prices.
-- Customize the website by editing the HTML and CSS files according to your requirements.
+```bash
+# Example
+```
 
-## Contributing
+Include screenshots as necessary.
 
-Contributions are welcome! If you have any ideas for improving the project, feel free to fork the repository and submit a pull request.
+## Credentials
+Provide user credentials for autheticated pages
 
-### Steps to Contribute:
+## APIs Used
+If your application relies on external APIs, document them and include any necessary links or references.
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`.
-3. Make your changes.
-4. Commit the changes: `git commit -m 'Add new feature'`.
-5. Push to the branch: `git push origin feature-branch`.
-6. Submit a pull request.
+## API Endpoints
+In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
+GET /api/items - retrieve all items
+POST /api/items - create a new item
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+## Technology Stack
+List and provide a brief overview of the technologies used in the project.
 
-## Acknowledgements
-
-- Icons by [FontAwesome](https://fontawesome.com/)
-- Inspiration from various cryptocurrency websites
-
----
-
-Feel free to customize it further based on the specifics of your project!
+- Node.js
+- Express.js
+- MongoDB
+- Other libraries/modules
