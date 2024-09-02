@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # ScriptSprinters
-=======
+=================
 # KryptoConnect
 
 ## Introduction
@@ -9,12 +8,11 @@ A brief introduction of your project goes here. You may want to cover the purpos
 ## Project Type
 Frontend | Backend | Fullstack
 
-## Deplolyed App
-Frontend: https://deployed-site.whatever
-Backend: https://deployed-site.whatever
-Database: https://deployed-site.whatever
+## Deplolyed Site
+Check out the live demo of the website [Here](https://krypto-connect.netlify.app/).
 
 ## Directory Structure
+```bash
 ScriptSprinters/
 ├─ src/
 ├─ assets/
@@ -22,12 +20,9 @@ ScriptSprinters/
 ├─ index.html
 ├─ readme.me
 │  ├─ ...
-
+```
 ## Video Walkthrough of the project
-Attach a very short video walkthough of all of the features [ 1 - 3 minutes ]
-
-## Video Walkthrough of the codebase
-Attach a very short video walkthough of codebase [ 1 - 5 minutes ]
+https://youtu.be/uu74W_TCW7Q
 
 ## Features
 List out the key features of your application.
@@ -39,41 +34,74 @@ List out the key features of your application.
 ## design decisions or assumptions
 List your design desissions & assumptions
 
-## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running. For BE/FS projects, guide the reviewer how to check mongodb schema etc.
+### Prerequisites
 
-```bash
-npm install my-project
-cd my-project
-npm start
-```
+To run this project locally, you will need:
+
+- A web browser (e.g., Chrome, Firefox)
+- A code editor (e.g., VSCode, Sublime Text)
+
+### Installation
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Anjaliicode/ScriptSprinters.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd ScriptSprinters
+   ```
+
+3. **Open the project in your web browser:**
+
+   ```bash
+   open index.html
+   ```
 
 ## Usage
-Provide instructions and examples on how to use your project.
 
-```bash
-# Example
-```
+- Browse through different sections like market trends, news, and cryptocurrency prices.
+- Customize the website by editing the HTML and CSS files according to your requirements.
 
-Include screenshots as necessary.
 
-## Credentials
-Provide user credentials for autheticated pages
+## Screenshots
 
-## APIs Used
-If your application relies on external APIs, document them and include any necessary links or references.
+![Homepage]([path/to/screenshot1.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Home.png?raw=true))
+*Description of the homepage.*
 
-## API Endpoints
-In case of Backend Applications provide a list of your API endpoints, methods, brief descriptions, and examples of request/response.
-GET /api/items - retrieve all items
-POST /api/items - create a new item
+![Market Overview]([path/to/screenshot2.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Market.png?raw=true))
+*Description of the market overview section.*
+
+![Trading View]([path/to/screenshot2.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Market.png?raw=true))
+*Description of the Trading section.*
+
+![FAQ]([https://github.com/Anjaliicode/ScriptSprinters/blob/img/FAQ.png?raw=true))
+*Description of the Trading section.*
+
+
+## Contributing
+
+Contributions are welcome! If you have any ideas for improving the project, feel free to fork the repository and submit a pull request.
+
+### Steps to Contribute:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-branch`.
+3. Make your changes.
+4. Commit the changes: `git commit -m 'Add new feature'`.
+5. Push to the branch: `git push origin feature-branch`.
+6. Submit a pull request.
 
 
 ## Technology Stack
 List and provide a brief overview of the technologies used in the project.
 
-- Node.js
-- Express.js
-- MongoDB
-- Other libraries/modules
->>>>>>> 72f3f56330d2408278979d1bb0c591bfcbf9d71f
+- HTML, CSS
+- JS
+
+-------
+
+Feel free to customize it further based on the specifics of your project!
