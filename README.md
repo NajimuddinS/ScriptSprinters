@@ -72,13 +72,13 @@ To run this project locally, you will need:
 ![Homepage](/sc/Home.png)
 *Description of the homepage.*
 
-![Market Overview]([/sc/Market.png))
+![Market Overview]([/sc/Market.png)
 *Description of the market overview section.*
 
-![Trading View]([/sc/Market.png))
+![Trading View]([/sc/Market.png)
 *Description of the Trading section.*
 
-![FAQ]([/sc/FAQ.png))
+![FAQ]([/sc/FAQ.png)
 *Description of the Trading section.*
 
 
