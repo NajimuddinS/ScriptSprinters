@@ -1,5 +1,5 @@
 # ScriptSprinters
-============================================================================================
+========================================================================
 # KryptoConnect
 
 ## Introduction
@@ -69,16 +69,16 @@ To run this project locally, you will need:
 
 ## Screenshots
 
-![Homepage]([path/to/screenshot1.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Home.png?raw=true))
+![Homepage](/sc/Home.png)
 *Description of the homepage.*
 
-![Market Overview]([path/to/screenshot2.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Market.png?raw=true))
+![Market Overview]([/sc/Market.png))
 *Description of the market overview section.*
 
-![Trading View]([path/to/screenshot2.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Market.png?raw=true))
+![Trading View]([/sc/Market.png))
 *Description of the Trading section.*
 
-![FAQ]([https://github.com/Anjaliicode/ScriptSprinters/blob/img/FAQ.png?raw=true))
+![FAQ]([/sc/FAQ.png))
 *Description of the Trading section.*
 
 
