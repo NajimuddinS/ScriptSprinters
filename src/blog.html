@@ -1,100 +1,122 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="../styles/blog.css" />
-		<link rel="stylesheet" href="../styles/nivo-slider.css" type="text/css" media="screen" />
-		<link rel="stylesheet" href="../styles/default.css" type="text/css" media="screen" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-		<script src="jquery.nivo.slider.pack.js" type="text/javascript"></script>
-       
-        <title>Blog</title>
-    </head>
-	
-	<body id="home">
-		<div class="img-blog">
-			<img href="https://images.ctfassets.net/jg6lo9a2ukvr/zC8wzzXHrRgKA1MSjz2dm/18e54c686cdeb60511e695363eb5e362/Blog1_0815.png?fm=webp">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <link rel="stylesheet" href="../styles/blog.css">
+</head>
+<body>
+  <header>
+	<nav>
+		<a class="logo" href="/index.html">
+			<img src="../assets/krypt.png" alt="Logo" class="logo">
+		</a>
+		<input type="checkbox" id="sidebar-active" style="display: none;">
+		<label for="sidebar-active" class="open-sidebar-button">
+			<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+				<path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+			</svg>
+		</label>
+		<label id="overlay" for="sidebar-active"></label>
+		<div class="links-container">
+			<label for="sidebar-active" class="close-sidebar-button">
+				<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+					<path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+				</svg>
+			</label>
+			<a class="al" href="/src/about.html">About</a>
+			<a class="al" href="/src/services.html">Services</a>
+			<a class="al" href="/src/market.html">Market</a>
+			
+			<a class="al" href="/src/blog.html">Blog</a>
+  
+			<a class="al" href="/src/learn.html">Learn</a>
+			<a class="al" href="/src/faq.html">FAQ</a>
+			<div class="butss">
+			  <button> <a href="./src/signup.html" class="signup">Sign up</a></button>
+			  <button> <a href="./src/signin.html" class="signin">Log in</a></button>
+			
+			</div>
 		</div>
-		
-		<div id="wrapper">			
-			<!--__--__--__--__--  T H E    S L I D E R --__--__--__--___--__--__--__-->
-			<!-- <div class="slider-wrapper theme-default">
-				<div id="slider" class="nivoSlider">
-					<img class="niv" src="./assets/Blog_0516.webp" alt="" />
-					<img href="https://images.ctfassets.net/jg6lo9a2ukvr/zC8wzzXHrRgKA1MSjz2dm/18e54c686cdeb60511e695363eb5e362/Blog1_0815.png?fm=webp">
-				</div>
-			</div> -->
-			
-			<!-- <script type="text/javascript">
-			$(window).load(function() {
-				$('#slider').nivoSlider({pauseTime: 6000,});
-			});
-			</script> -->
-		
-			<section>
-				<div id="line">
-					<div class="dline"></div>
-					<h1>Blog</h1>
-					<hr>
-					<!-- <div class="dline"></div> -->
-				</div>
-				<div id="ourserv">
-					<article>
-						<h1>Crypto News</h1>
-						<img class="pics" src="../assets/Blog1_0718__2_.webp" alt="" />
-						<p>Crypto prices pulled back after Iran pledged it would retaliate against Israel for assassinating Hamas leader Ismail Haniyeh on to the Iranian soil.</p>
-						<a href="fullwidth.html" class="rm">Read More</a>
-					</article>
-					<article>
-						<h1>Crypto Prices</h1>
-						<img class="pics" src="../assets/Blog1_0718__2_.webp" alt="" />
-						<p>Prices quickly bounced back, briefly pushing near $60,000 on Thursday, as major indices regained their footing despite fears of a US recession.</p>
-						<a href="fullwidth.html" class="rm">Read More</a>
-					</article>
-					<article class="lastarticle">
-						<h1>Crypto Markets</h1>
-						<img class="pics" src="../assets/Blog_0502.webp" alt="" />
-						<p>The cryptocurrency market initially retreated under the shadow of renewed concerns about US stagflation. FOMC meeting and downplayed stagflation risk. </p>
-						<a href="fullwidth.html" class="rm">Read More</a>
-					</article>
-				</div>
-				<div id="sline">
-					<div class="sdline"></div>
-					<h1>Latest Projects</h1>
-					<div class="sdline"></div>
-				</div>
-				<div id="latestp">
-					<article>
-						<h1>Crypto Gain</h1>
-						<img class="pic" src="../assets/Blog_01042024.webp" alt="" />
-						<p>Bitcoin (BTC) managed to close out 2023 with an impressive 156% gain, rising from ~$16k to over $42k as the leading crypto asset regained credibility following numerous high profile collapses in the previous year cryptocurrency gaining.</p>
-						<a href="singlepost.html" class="rm">Read More</a>
-					</article>
-					<article>
-						<h1>Crypto Trading</h1>
-						<img class="pic" src="../assets/Blog_Deriv_Mobile_App_2.webp" alt="" />
-						<p>In August, we unveiled the ability to view your derivatives positions and cancel open orders directly from our mobile app. Starting today, mobile users on both iOS and Android can now  on the Gemini mobile app.</p>
-						<a href="singlepost.html" class="rm">Read More</a>
-					</article>
-					<article>
-						<h1>Crypto Prediction</h1>
-						<img class="pic" src="../assets/Blog1_0718__2_.webp" alt="" />
-						<p>Prediction markets note that the shocking attack has boosted his election prospects. Trump is viewed as the pro-crypto candidate compared to President Joe Biden the secure way to buy the product of crypto</p>
-						<a href="singlepost.html" class="rm">Read More</a>
-					</article>
-					<article class="lastarticle">
-						<h1>Crypto Policy</h1>
-						<img class="pic" src="../assets/Blog1_082220204.webp" alt="" />
-						<p>Speaking at a Bloomberg roundtable event,Kamala Harris policy adviser Brian Nelson said Harris will support policies to grow crypto and other emerging technologies and its help for cryptocurrency bitcoin policy.</p>
-						<a href="singlepost.html" class="rm">Read More</a>
-					</article>
-				</div>
-			</section>				
-		</div>			
-	</body>
+	</nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Welcome to Our Blog</h1>
+        <p>where we explore the fascinating world of cryptocurrencies, blockchain technology, and the future of finance. Whether you're a seasoned investor, a curious newcomer, or simply interested in the latest trends, our blog aims to provide valuable insights, news, and analysis to help you navigate this rapidly evolving landscape.</p>
+        <a href="#" class="rm">Read More</a>
+      </div>
+      <img src="../assets/tiny-people-stock-traders-laptop-with-graph-chart-buy-sell-shares-stock-market-index-stockbroking-company-stock-exchange-data-concept.png" alt="Blog Hero Image" class="hero-image">
+    </section>
+
+    <section class="blog-posts">
+      <div class="line">
+        <div class="dline"></div>
+        <h2>Latest Posts</h2>
+        <div class="dline"></div>
+      </div>
+      <div class="post-grid">
+        <article>
+          <img src="../assets/Blog1_0718__2_.webp" alt="Blog Post 1" class="pics">
+          <h3>Crypto News</h3>
+          <p>Crypto prices pulled back after Iran pledged it would retaliate against Israel for assassinating Hamas leader Ismail Haniyeh on to the Iranian soil.</p>
+          <a href="#" class="rm">Read More</a>
+        </article>
+        <article>
+          <img src="../assets/Blog1_082220204.webp" alt="Blog Post 2" class="pics">
+          <h3>Crypto Prices</h3>
+          <p>Prices quickly bounced back, briefly pushing near $60,000 on Thursday, as major indices regained their footing despite fears of a US recession.</p>
+          <a href="#" class="rm">Read More</a>
+        </article>
+        <article>
+          <img src="../assets/Blog_01042024.webp" alt="Blog Post 3" class="pics">
+          <h3>Crypto Markets</h3>
+          <p>The cryptocurrency market initially retreated under the shadow of renewed concerns about US stagflation. FOMC meeting and downplayed stagflation risk.</p>
+          <a href="#" class="rm">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="latest-projects">
+      <div class="line">
+        <div class="dline"></div>
+        <h2>Latest Projects</h2>
+        <div class="dline"></div>
+      </div>
+      <div class="project-grid">
+        <article>
+          <img src="../assets/Blog_0502.webp" alt="Project 1" class="pic">
+          <h3>Crypto Gain</h3>
+          <p>Bitcoin (BTC) managed to close out 2023 with an impressive 156% gain, rising from ~$16k to over $42k as the leading crypto asset regained credibility following numerous high profile collapses in the previous year cryptocurrency gaining.</p>
+          <a href="#" class="rm">Read More</a>
+        </article>
+        <article>
+          <img src="../assets/Blog_0516.webp" alt="Project 2" class="pic">
+          <h3>Crypto Trading</h3>
+          <p>In August, we unveiled the ability to view your derivatives positions and cancel open orders directly from our mobile app. Starting today, mobile users on both iOS and Android can now  on the Gemini mobile app.</p>
+          <a href="#" class="rm">Read More</a>
+        </article>
+        <article>
+          <img src="../assets/Blog_Deriv_Mobile_App_2.webp" alt="Project 3" class="pic">
+          <h3>Crypto Prediction</h3>
+          <p>Prediction markets note that the shocking attack has boosted his election prospects. Trump is viewed as the pro-crypto candidate compared to President Joe Biden the secure way to buy the product of crypto</p>
+          <a href="#" class="rm">Read More</a>
+        </article>
+        <article>
+          <img src="../assets/bitcoin-blockchain-digital-cryptocurrency-concept-background.png" alt="Project 4" class="pic">
+          <h3>Crypto Policy</h3>
+          <p>Speaking at a Bloomberg roundtable event,Kamala Harris policy adviser Brian Nelson said Harris will support policies to grow crypto and other emerging technologies and its help for cryptocurrency bitcoin policy.</p>
+          <a href="#" class="rm">Read More</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Blog. All rights reserved.</p>
+  </footer>
+</body>
 </html>
-		
-		
-			
-    
-    

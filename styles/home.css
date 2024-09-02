@@ -465,7 +465,9 @@ nav.scrolled {
 .newsletterPic {
   order: 1;
 }
-
+.last2{
+    margin-bottom: 2rem;
+}
 @media screen and (min-width: 800px) {
   .newsletterDesc {
     order: 1;

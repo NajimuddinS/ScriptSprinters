@@ -23,29 +23,173 @@ body {
     background-color: #000000;
     padding: 20px;
 }
+main{
+    margin-top: 7rem;
+}
 
 /* Header styling */
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:2.5rem;
+  font-family: "Questrial", sans-serif;
+  transition: all 0.3s ease;
 }
 
-nav ul li {
-    margin: 0 15px;
+nav.scrolled {
+  border-bottom: 1px solid #396fec;
+  background-color: rgba(13, 16, 44, 0.9);
+  backdrop-filter: blur(10px);
+  box-shadow: rgba(94, 64, 177, 0.35) 0px 5px 15px;
+  border-radius: 0 0 10px 10px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
+.logo {
+  height: 70px;
 }
 
-nav ul li a.active {
-    text-decoration: underline;
+.links-container {
+  display: flex;
+  align-items: center;
+  /* background-color: #1a2980; */
 }
+
+.al {
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.al:hover {
+  box-shadow: rgba(28, 62, 255, 0.56) 0px 22px 70px 4px;
+  border-radius: 5px;
+  color: #b5bbef;
+  padding: .5rem;
+}
+
+.butss {
+  display: flex;
+  gap: 10px;
+}
+
+.butss button {
+  font-family: "Questrial", sans-serif;
+  width: 140px;
+  height: 45px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(to right, #0049d3, #009dea);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+.butss a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.butss button:hover {
+  background-color: #402ee5;
+  box-shadow: 0px 15px 20px rgba(28, 62, 255, 0.56);
+  color: #fff;
+  transform: translateY(-5px);
+  /* padding:2rem ; */
+}
+.b
+
+#sidebar-active,
+.open-sidebar-button,
+.close-sidebar-button {
+  display: none;
+  /* background-color: #000; */
+}
+
+@media (max-width: 768px) {
+  .open-sidebar-button {
+      display: block;
+      /* display: none; */
+  }
+  .sidebar-active{
+    display: none;
+  }
+
+  .links-container {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 200px;
+      height: 100vh;
+      background-color: rgba(19, 32, 130, 0.862);
+      backdrop-filter: blur(10px);
+      box-shadow: -5px 0 5px rgba(0, 0, 0, 0.25);
+      transition: 0.75s ease-out;
+      padding: 20px;
+  }
+
+  .close-sidebar-button {
+    display: block;
+      /* display: none; */
+      align-self: flex-end;
+      margin-bottom: 20px;
+  }
+
+  .al {
+      width: 100%;
+      padding: 15px 0;
+  }
+
+  .butss {
+      flex-direction: column;
+      width: 100%;
+  }
+
+  #sidebar-active:checked ~ .links-container {
+      right: 0;
+  }
+
+  #overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      /* background-color: #0D102C; */
+      background-color: rgba(21, 1, 1, 0.5);
+      z-index: 9;
+      color: #000;
+  }
+
+  #sidebar-active:checked ~ #overlay {
+      /* display: block; */
+  }
+}
+
 
 /* Hero section styling */
 .hero {
+    margin-top: 20px;
     text-align: center;
     padding: 50px 20px;
     color: white;
@@ -111,7 +255,38 @@ video{
 }
  </style>
 <body>
-   
+    <nav>
+        <a class="logo" href="/index.html">
+            <img src="/assets/krypt.png" alt="Logo" class="logo">
+        </a>
+        <input type="checkbox" id="sidebar-active" style="display: none;">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
+        </label>
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+                    <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg>
+            </label>
+            <a class="al" href="/src/about.html">About</a>
+            <a class="al" href="/src/services.html">Services</a>
+            <a class="al" href="/src/market.html">Market</a>
+            
+            <a class="al" href="/src/blog.html">Blog</a>
+  
+            <a class="al" href="/src/learn.html">Learn</a>
+            <a class="al" href="/src/faq.html">FAQ</a>
+            <div class="butss">
+              <button> <a href="./src/signup.html" class="signup">Sign up</a></button>
+              <button> <a href="./src/signin.html" class="signin">Log in</a></button>
+            
+            </div>
+        </div>
+    </nav>
     <main>
         <section class="hero">
             <h1>Learn About Cryptocurrency</h1>
