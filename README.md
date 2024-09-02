@@ -27,9 +27,9 @@ https://youtu.be/uu74W_TCW7Q
 ## Features
 List out the key features of your application.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Buy and Sell Cryptocurrency
+- Trade
+- Learn
 
 ## design decisions or assumptions
 List your design desissions & assumptions
