@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 
 * {
   padding: 0;
@@ -179,6 +180,11 @@ nav.scrolled {
   #sidebar-active:checked ~ #overlay {
       /* display: block; */
   }
+}
+
+
+img#imahe {
+    animation: bounce 0s infinite;
 }
 
 
@@ -495,6 +501,9 @@ footer {
   position: relative;
   border-radius: 15px;
   box-shadow: rgba(94, 64, 177, 0.35) 0px 5px 15px;
+  z-index: 2;
+  position: relative;
+  bottom: 120px;
 }
 
 .joinSection button {
@@ -724,7 +733,7 @@ footer {
       display: grid;
       align-items: center;
       gap: 40px;
-      margin-bottom: 8em;
+      /* margin-bottom: 8em; */
   }
   
   #sectionPic{

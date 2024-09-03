@@ -12,8 +12,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  /* background: linear-gradient(135deg, #1f1c2c, #928dab); */
+  background-image: url(../assets/8235.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: #fff;
+  
 }
 
 .container {
@@ -37,6 +42,7 @@ body {
   left: -100%;
   background: linear-gradient(45deg, rgba(255, 255, 255, 0.1), transparent);
   animation: moveBackground 10s linear infinite;
+  
 }
 
 .container::after {
@@ -106,30 +112,31 @@ h1 {
   display: block;
   text-align: right;
   margin-bottom: 20px;
-  color: #3d51f2;
+  color: #ffffff;
   text-decoration: none;
   font-size: 0.9em;
   transition: color 0.3s;
 }
 
 .forgot-password:hover {
-  color: #fff;
+  color: #a3a2a2;
 }
 
 .signup-button {
   width: 100%;
   padding: 10px;
-  background: #3d51f2;
+  background: linear-gradient(to right, #0049d3, #009dea);
   border: none;
   border-radius: 25px;
   color: #fff;
   font-size: 1em;
   cursor: pointer;
   transition: background 0.3s;
+  
 }
 
 .signup-button:hover {
-  background: #2b38c0;
+  background: linear-gradient(to right, #009dea, #0856ff) ;
 }
 
 @media (max-width: 768px) {

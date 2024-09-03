@@ -1,9 +1,9 @@
 # ScriptSprinters
-============================================================================================
+========================================================================
 # KryptoConnect
 
 ## Introduction
-A brief introduction of your project goes here. You may want to cover the purpose of your project, its core functionality, and what problems it solves.
+Welcome to our cryptocurrency platform, where cutting-edge technology meets financial innovation. This project is a fully responsive and user-friendly website designed to provide users with up-to-date information on various cryptocurrencies, market trends, and investment opportunities. Built using HTML and CSS, the website offers a clean and intuitive interface, ensuring seamless navigation across different devices. Whether you're a seasoned trader or new to the crypto world, our platform is crafted to cater to your needs, offering real-time data and insights to help you make informed decisions.
 
 ## Project Type
 Frontend | Backend | Fullstack
@@ -69,16 +69,16 @@ To run this project locally, you will need:
 
 ## Screenshots
 
-![Homepage]([path/to/screenshot1.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Home.png?raw=true))
+![Homepage](/sc/Home.png)
 *Description of the homepage.*
 
-![Market Overview]([path/to/screenshot2.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Market.png?raw=true))
+![Market Overview](/sc/Market.png)
 *Description of the market overview section.*
 
-![Trading View]([path/to/screenshot2.png](https://github.com/Anjaliicode/ScriptSprinters/blob/img/Market.png?raw=true))
+![Trading View](/sc/Bitcoin.png)
 *Description of the Trading section.*
 
-![FAQ]([https://github.com/Anjaliicode/ScriptSprinters/blob/img/FAQ.png?raw=true))
+![FAQ](/sc/FAQ.png)
 *Description of the Trading section.*
 
 

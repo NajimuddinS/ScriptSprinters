@@ -35,7 +35,7 @@ nav {
   left: 0;
   right: 0;
   z-index: 1000;
-  height: 60px;
+  height: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -281,8 +281,8 @@ video{
             <a class="al" href="/src/learn.html">Learn</a>
             <a class="al" href="/src/faq.html">FAQ</a>
             <div class="butss">
-              <button> <a href="./src/signup.html" class="signup">Sign up</a></button>
-              <button> <a href="./src/signin.html" class="signin">Log in</a></button>
+                <a href="./signup.html" class="signup"><button> Sign up</button></a>
+                <a href="./signin.html" class="signin"><button> Log in</button></a>
             
             </div>
         </div>
@@ -321,4 +321,14 @@ video{
 
  
 </body>
+<script>
+    window.addEventListener('scroll', function() {
+        var nav = document.querySelector('nav');
+        if (window.scrollY > 50) {
+            nav.classList.add('scrolled');
+        } else {
+            nav.classList.remove('scrolled');
+        }
+    });
+    </script>
 </html>
