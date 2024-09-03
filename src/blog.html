@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog</title>
+  <link rel="icon" type="image/x-icon" href="../assets/favicon.png">
   <link rel="stylesheet" href="../styles/blog.css">
+  <link rel="stylesheet" href="./bootstrap.min.css" class="css">
+    <!-- style css -->
+    <link rel="stylesheet" href="./services.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="./responsive.css">
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <header>
@@ -46,16 +54,16 @@
     <section class="hero">
       <div class="hero-content">
         <h1>Welcome to Our Blog</h1>
-        <p>where we explore the fascinating world of cryptocurrencies, blockchain technology, and the future of finance. Whether you're a seasoned investor, a curious newcomer, or simply interested in the latest trends, our blog aims to provide valuable insights, news, and analysis to help you navigate this rapidly evolving landscape.</p>
+        <p>Where we explore the fascinating world of cryptocurrencies, blockchain technology, and the future of finance. Whether you're a seasoned investor, a curious newcomer, or simply interested in the latest trends, our blog aims to provide valuable insights, news, and analysis to help you navigate this rapidly evolving landscape.</p>
         <a href="#" class="rm">Read More</a>
       </div>
-      <img src="../assets/tiny-people-stock-traders-laptop-with-graph-chart-buy-sell-shares-stock-market-index-stockbroking-company-stock-exchange-data-concept.png" alt="Blog Hero Image" class="hero-image">
+      <img src="../assets/blog.svg" alt="Blog Hero Image" class="hero-image">
     </section>
 
     <section class="blog-posts">
       <div class="line">
         <div class="dline"></div>
-        <h2>Latest Posts</h2>
+        <h2 style="font-family: Questrial, sans-serif;">Latest Posts</h2>
         <div class="dline"></div>
       </div>
       <div class="post-grid">
@@ -83,7 +91,7 @@
     <section class="latest-projects">
       <div class="line">
         <div class="dline"></div>
-        <h2>Latest Projects</h2>
+        <h2 style="font-family: Questrial, sans-serif;">Latest Projects</h2>
         <div class="dline"></div>
       </div>
       <div class="project-grid">
@@ -115,8 +123,47 @@
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2023 Blog. All rights reserved.</p>
-  </footer>
+  <header style="padding-bottom: 115px;">
+    <!-- header inner -->
+    <div class="head-top">
+        <div class="container-fluid">
+            <div class="row d_flex">
+                <div class="col-sm-3">
+                    <div class="logo">
+                        <a href="../index.html"><img src="https://raw.githubusercontent.com/Anjaliicode/ScriptSprinters/main/assets/krypt.png" alt="LogoHere"></a>
+                    </div>
+                </div>
+                <div style="padding-top: 20px;" class="col-sm-5">
+                    <ul class="social_icon text_align_right d_none">
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-sm-4">
+                    <ul class="email text_align_right">
+                        <li class="d_none"><a href="Javascript:void(0)"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                        <li class="d_none"> <a href="Javascript:void(0)"><i class="fa fa-search" style="cursor: pointer;" aria-hidden="true"></i></a> </li>
+                        <li>
+                            <button class="openbtn" onclick="openNav()"><img src="../assets/menu_btn.png"></button>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</header>
 </body>
+<script>
+  window.addEventListener('scroll', function() {
+      var nav = document.querySelector('nav');
+      if (window.scrollY > 50) {
+          nav.classList.add('scrolled');
+      } else {
+          nav.classList.remove('scrolled');
+      }
+  });
+  </script>
 </html>

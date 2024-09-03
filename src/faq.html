@@ -27,12 +27,12 @@
                 <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
             </svg>
         </label>
-        <a class="al" href="">About</a>
-        <a class="al" href="">Services</a>
-        <a class="al" href="/src/market.html">Market</a>
-        <a class="al" href="/src/faq.html">FAQ</a>
-        <a class="al" href="/src/blog.html">Blog</a>
-        <a class="al" href="/src/market.html">Learn</a>
+        <a class="al" href="./about.html">About</a>
+        <a class="al" href="./services.html">Services</a>
+        <a class="al" href="./market.html">Market</a>
+        <a class="al" href="./faq.html">FAQ</a>
+        <a class="al" href="./blog.html">Blog</a>
+        <a class="al" href="./learn.html">Learn</a>
         <div class="butss">
           <button> <a href="./src/signup.html" class="signup">Sign up</a></button>
           <button> <a href="./src/signin.html" class="signup">Log in</a></button>
@@ -188,6 +188,17 @@
     
 </footer>
 
+
 </body>
+<script>
+  window.addEventListener('scroll', function() {
+      var nav = document.querySelector('nav');
+      if (window.scrollY > 50) {
+          nav.classList.add('scrolled');
+      } else {
+          nav.classList.remove('scrolled');
+      }
+  });
+  </script>
 <script src="/src/faq.js"></script>
 </html>
