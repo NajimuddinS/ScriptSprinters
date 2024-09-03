@@ -75,7 +75,7 @@ To run this project locally, you will need:
 ![Market Overview](/sc/Market.png)
 *Description of the market overview section.*
 
-![Trading View](/sc/Market.png)
+![Trading View](/sc/Trade.png)
 *Description of the Trading section.*
 
 ![FAQ](/sc/FAQ.png)
