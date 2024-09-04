@@ -70,16 +70,16 @@ To run this project locally, you will need:
 ## Screenshots
 
 ![Homepage](/sc/Home.png)
-*Description of the homepage.*
+*Homepage.*
 
 ![Market Overview](/sc/Market.png)
-*Description of the market overview section.*
+*Market overview section.*
 
 ![Trading View](/sc/Bitcoin.png)
-*Description of the Trading section.*
+*Trading section.*
 
 ![FAQ](/sc/FAQ.png)
-*Description of the Trading section.*
+*FAQ section.*
 
 
 ## Contributing
