@@ -1619,3 +1619,17 @@ body {
     animation: bounce 7s infinite;
   }
 }
+
+button {
+  font-family: "Questrial", sans-serif;
+  border: 1px solid #396fec;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #3d51f2;
+  font-size: 1rem;
+  padding: 0.7em 1.5em;
+  letter-spacing: 2.5px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  box-shadow: rgba(94, 64, 177, 0.35) 0px 5px 15px;
+}

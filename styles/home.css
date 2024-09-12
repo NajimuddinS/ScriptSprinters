@@ -447,6 +447,7 @@ img#imahe {
   border: none;
   outline: none;
   background-color: transparent;
+  color:#fff;
 }
 
 .newsletter input::placeholder {
